@@ -24,6 +24,11 @@ h4 {
 .bg-primary-green {
 	background-color: #789461;
 }
+
+.text-green {
+	color: #294b29;
+}
+
 /*---------------------------------------
   COVER              
 -----------------------------------------*/
@@ -59,4 +64,19 @@ h4 {
 	padding-right: 24px;
 }
 
-/* BACKGROUND */
+/* COUNTDOWN */
+#countdown li {
+	display: inline-block;
+	font-size: small;
+	list-style-type: none;
+	padding: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 72px;
+	height: 72px;
+}
+
+#countdown li span {
+	display: block;
+	font-size: large;
+}
