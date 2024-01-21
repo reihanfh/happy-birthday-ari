@@ -35,5 +35,6 @@ var x = setInterval(function () {
 		clearInterval(x);
 		document.getElementById("minutes").innerHTML = 0;
 		document.getElementById("seconds").innerHTML = 0;
+		document.getElementById("open").disabled = false;
 	}
 }, 1000);
