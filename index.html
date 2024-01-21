@@ -40,7 +40,7 @@
 				</div>
 				<div class="bg-white card">
 					<!-- Carousel -->
-					<div id="myCarousel" class="carousel slide w-100 text-center py-5 px-3" data-bs-ride="true" data-bs-pause="pause" data-wrap="false" data-bs-touch="false">
+					<div id="myCarousel" class="carousel slide w-100 text-center py-5 px-3" data-bs-ride="true" data-bs-pause="pause" data-bs-wrap="false" data-bs-touch="false">
 						<div class="carousel-inner">
 							<div>
 								<h5>
@@ -175,9 +175,27 @@
 							<div class="carousel-item" data-bs-interval="4000">
 								<p></p>
 							</div>
+							<div class="carousel-item">
+								<button class="btn btn-open rounded-pill" data-bs-toggle="modal" data-bs-target="#videoModal">CLICK FOR BONUS</button>
+							</div>
 						</div>
 					</div>
 					<!-- Carousel -->
+				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-fullscreen">
+						<div class="modal-content">
+							<div class="modal-body" style="background-color: #dbe7c9">
+								<div class="d-flex flex-column align-items-center justify-content-center h-100">
+									<video controls class="rounded-5" style="max-width: 100%">
+										<source src="./assets/video/happy-birthday.mp4" type="video/mp4" />
+									</video>
+									<button class="btn btn-open rounded-pill mt-4 p-3"><i class="bi bi-arrow-clockwise"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
